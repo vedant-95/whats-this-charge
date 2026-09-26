@@ -1,0 +1,21 @@
+{
+  "name": "whats-this-charge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "local": "tsx index.ts --terminal",
+    "one": "tsx test.ts"
+  },
+  "dependencies": {
+    "@browserbasehq/sdk": "latest",
+    "@typesafe-ai/sdk": "latest",
+    "dotenv": "latest",
+    "playwright-core": "latest",
+    "spectrum-ts": "latest",
+    "undici": "^7.30.0"
+  },
+  "devDependencies": {
+    "tsx": "latest"
+  }
+}
